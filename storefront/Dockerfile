@@ -1,9 +1,9 @@
 # Build Stage
 FROM node:22-alpine AS builder
 WORKDIR /app
-COPY package*.json ./
+COPY storefront/package*.json ./
 RUN npm ci
-COPY . .
+COPY storefront/ .
 RUN npm run build
 
 # Runner Stage
