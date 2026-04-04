@@ -1,0 +1,484 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-04-03",
+  "title": "The Sales Autonomy Methodology",
+  "subtitle": "The 4D Sales Framework & Diagnostic System",
+  "creditLine": "Developed in partnership with FortyFive.io",
+
+  "coreFramework": {
+    "name": "The 4D Sales Framework",
+    "summary": "A four-stage process that maps to three buyer checkpoints. Each stage answers one question the buyer needs resolved before they move forward.",
+    "stages": [
+      {
+        "id": "discovery",
+        "name": "Discovery",
+        "checkpoint": 1,
+        "checkpointQuestion": "Do they need to act?",
+        "description": "The first conversation. Find out if there is a real problem worth solving.",
+        "keyQuestions": [
+          "What problems are they trying to solve?",
+          "What is preventing them from hitting their goals?",
+          "How long has this been an issue?",
+          "What is the worst thing that happens if they do nothing?"
+        ],
+        "outcome": "You know whether this prospect has a real, urgent problem — or if they are just browsing."
+      },
+      {
+        "id": "diagnosis",
+        "name": "Diagnosis",
+        "checkpoint": 2,
+        "checkpointQuestion": "Do they need outside help?",
+        "description": "Go deeper. Find out what they have already tried, why it did not work, and whether they can solve this themselves.",
+        "keyQuestions": [
+          "What have they tried so far to fix this?",
+          "Why did those attempts not work?",
+          "Do they have the internal resources to solve this?",
+          "Are they currently working with another vendor?"
+        ],
+        "outcome": "You know whether they need a partner — or if they can handle this alone."
+      },
+      {
+        "id": "demo",
+        "name": "Demo",
+        "checkpoint": 3,
+        "checkpointQuestion": "Who has the best solution?",
+        "description": "Show how your specific approach solves their specific problem. No feature dumps. No generic decks.",
+        "keyQuestions": [
+          "How does our approach solve their actual problem?",
+          "What proof can we show that it works?",
+          "What does the first 90 days look like?"
+        ],
+        "outcome": "The prospect sees a clear path from where they are to where they want to be."
+      },
+      {
+        "id": "decision",
+        "name": "Decision",
+        "checkpoint": null,
+        "checkpointQuestion": "All three checkpoints are cleared. Drive to commitment.",
+        "description": "Guide the final decision. Handle pricing, stakeholder alignment, and next steps.",
+        "keyQuestions": [
+          "What is preventing an immediate yes?",
+          "Who else needs to be involved in the final decision?",
+          "What is the timeline for implementation?"
+        ],
+        "outcome": "A signed agreement or a clear 'no' — never a 'maybe.'"
+      }
+    ]
+  },
+
+  "threeCheckpoints": {
+    "name": "The 3 Checkpoints",
+    "summary": "Every deal must pass three gates. If a prospect does not clear a checkpoint, anything after it is wasted effort.",
+    "checkpoints": [
+      {
+        "id": 1,
+        "question": "Do they need to act?",
+        "maps_to_stage": "Discovery",
+        "what_to_listen_for": [
+          "Is this problem causing real pain right now?",
+          "What are the consequences of doing nothing?",
+          "Is this a top-3 priority?"
+        ],
+        "red_flags": [
+          "\"This is not a priority right now.\"",
+          "\"Let's revisit next quarter.\"",
+          "\"We need to focus on other things first.\""
+        ],
+        "scoring": {
+          "question": "On a scale of 1 to 10, how would you rate this as a priority?",
+          "high": "8-10: YES — Ready to move forward.",
+          "medium": "5-7: MAYBE — Needs more qualification.",
+          "low": "1-4: NO — Not a fit. Disqualify early."
+        }
+      },
+      {
+        "id": 2,
+        "question": "Do they need outside help?",
+        "maps_to_stage": "Diagnosis",
+        "what_to_listen_for": [
+          "Have they tried solving this internally?",
+          "Do they have the people, time, and expertise?",
+          "Are they willing to invest in an external partner?"
+        ],
+        "red_flags": [
+          "\"We can probably handle this ourselves.\"",
+          "\"Our team is already working on it.\"",
+          "\"We just need a tool, not a partner.\""
+        ],
+        "scoring": {
+          "question": "On a scale of 1 to 10, how would you rate your need for outside help?",
+          "high": "8-10: They clearly need a partner.",
+          "medium": "5-7: Challenge them — 'Based on what you said, I expected a higher number. What is holding you back?'",
+          "low": "1-4: They do not believe they need you. Re-engage at Checkpoint 1."
+        }
+      },
+      {
+        "id": 3,
+        "question": "Who has the best solution?",
+        "maps_to_stage": "Demo",
+        "what_to_listen_for": [
+          "Do they believe our approach is different?",
+          "Have we proven credibility with results?",
+          "Do they trust us to deliver?"
+        ],
+        "red_flags": [
+          "\"How are you different from [competitor]?\"",
+          "\"We need to see more case studies.\"",
+          "\"I am not sure this is the right fit.\""
+        ]
+      }
+    ]
+  },
+
+  "buyersActionPlan": {
+    "name": "The Buyer's Action Plan",
+    "summary": "A prospect-facing roadmap that puts you at the center of their decision. Whether they buy from you or not, you have added value by giving them a clear process.",
+    "benefits": [
+      "Creates clarity in a confusing buying process.",
+      "Positions you as the trusted advisor, not a vendor.",
+      "Adds value whether or not they choose you.",
+      "Helps buyers take action instead of stalling."
+    ],
+    "keyPrinciple": "Confusion leads to inaction. The confused mind does not act. Your job is to make the buying process clear."
+  },
+
+  "fatalityMatrix": {
+    "name": "The Fatality Matrix",
+    "summary": "Deals die for five reasons. Every lost deal fits into one of these categories. Diagnosing the right one tells you exactly what to fix.",
+    "fatalities": [
+      {
+        "id": "timing",
+        "name": "Timing",
+        "whatItMeans": "The buyer does not feel urgency to act now.",
+        "missedCheckpoint": 1,
+        "symptoms": [
+          "Buyer ghosts you or keeps delaying.",
+          "\"This is not a priority right now.\"",
+          "\"Let's revisit next quarter.\"",
+          "\"We need to focus on other things first.\""
+        ],
+        "howToFix": [
+          "Show them the cost of inaction — what happens if they do nothing?",
+          "Use pain versus progress framing — remind them why they started looking.",
+          "Set a clear next step with a deadline. Never leave it open-ended."
+        ],
+        "progressionPathway": "Pain/Priority"
+      },
+      {
+        "id": "competition",
+        "name": "Competition",
+        "whatItMeans": "They chose another vendor or decided to handle it internally.",
+        "missedCheckpoint": 2,
+        "symptoms": [
+          "They went with a competitor.",
+          "\"We decided to handle this in-house.\"",
+          "\"We already have someone for that.\""
+        ],
+        "howToFix": [
+          "Reframe the problem — show them there is a deeper issue their internal team cannot fix.",
+          "Highlight the gap between what they have and what they need.",
+          "Make the comparison about approach, not features."
+        ],
+        "progressionPathway": "Problem Reframes / Gap in Ability"
+      },
+      {
+        "id": "price",
+        "name": "Price",
+        "whatItMeans": "They liked the approach but felt it cost too much.",
+        "missedCheckpoint": 2,
+        "symptoms": [
+          "\"We do not have the budget.\"",
+          "\"That is more than we expected.\"",
+          "\"Can you do it for less?\""
+        ],
+        "howToFix": [
+          "Anchor pricing early — do not wait until the proposal.",
+          "Calculate the cost of the problem, not just the cost of the fix.",
+          "Show 5-10x ROI using their own numbers."
+        ],
+        "progressionPathway": "Quantifiable Outcomes (ROI)"
+      },
+      {
+        "id": "product_fit",
+        "name": "Product Fit",
+        "whatItMeans": "They did not believe your approach was right for their situation.",
+        "missedCheckpoint": 3,
+        "symptoms": [
+          "\"This is not quite what we need.\"",
+          "\"We need something more tailored.\"",
+          "\"I do not see how this applies to us.\""
+        ],
+        "howToFix": [
+          "Go back to Diagnosis — you missed something about their real problem.",
+          "Tailor the demo to their specific pain points, not your standard pitch.",
+          "Use their language, not yours."
+        ],
+        "progressionPathway": "Problem Reframes"
+      },
+      {
+        "id": "trust",
+        "name": "Trust",
+        "whatItMeans": "They did not trust you, your company, or your ability to deliver.",
+        "missedCheckpoint": 3,
+        "symptoms": [
+          "\"We need to see more proof.\"",
+          "\"How long have you been doing this?\"",
+          "\"Can we talk to a reference?\""
+        ],
+        "howToFix": [
+          "Lead with results, not promises.",
+          "Offer direct references — let them talk to a real client.",
+          "Share specific numbers from past engagements."
+        ],
+        "progressionPathway": "Proven Results"
+      }
+    ],
+    "industryBenchmark": {
+      "stat": "40-60% of B2B deals end in 'no decision' — not a loss to a competitor, but a loss to inaction.",
+      "source": "Harvard Business Review analysis of 2.5M+ sales conversations",
+      "sourceUrl": "https://hbr.org",
+      "verified": true
+    }
+  },
+
+  "salesPostMortem": {
+    "name": "The Sales Post-Mortem",
+    "summary": "A monthly exercise. Pick your last 3 lost deals. For each one, identify the fatality, the missed checkpoint, and the fix. Do this consistently and your close rate climbs.",
+    "steps": [
+      {
+        "step": 1,
+        "name": "Select Lost Deals",
+        "instruction": "Pick 2-3 closed-lost deals from the past 30 days."
+      },
+      {
+        "step": 2,
+        "name": "Identify the Fatality",
+        "instruction": "For each deal, classify it using the Fatality Matrix. What killed this deal — Timing, Competition, Price, Product Fit, or Trust?"
+      },
+      {
+        "step": 3,
+        "name": "Diagnose the Missed Checkpoint",
+        "instruction": "Which of the 3 Checkpoints did you fail to clear? Where did the conversation break down?"
+      },
+      {
+        "step": 4,
+        "name": "Assign the Progression Pathway",
+        "instruction": "Based on the fatality, select the right fix strategy from the playbook."
+      },
+      {
+        "step": 5,
+        "name": "Build the Action Plan",
+        "instruction": "Write down the specific questions and talk tracks you will use next time you face this same situation."
+      }
+    ]
+  },
+
+  "halftime": {
+    "name": "Halftime",
+    "summary": "The structured checkpoint between your discovery call and your proposal call. Most reps wait until the deal is dying to strategize. Halftime forces the review while there is still time to adjust.",
+    "keyQuestions": [
+      "Based on the information I have collected, do I KNOW whether this prospect needs to take action? No assumptions.",
+      "Do I KNOW whether they need outside help to solve this? No assumptions.",
+      "Do I have their budget, ROI expectations, and decision process mapped?"
+    ],
+    "warning": "If you cannot confidently answer yes to all three, pitching your solution is a waste of time.",
+    "reEngagementTemplate": "Hey [Name], I was reviewing our last conversation and realized there were a few gaps I would love to clarify before we move forward. Do you mind if we quickly go through them?"
+  },
+
+  "objectionPlaybook": {
+    "name": "Objection Disarming Playbook",
+    "summary": "Six progression pathways, each designed to address a specific fatality. Follow the steps in order.",
+    "pathways": [
+      {
+        "id": "pain_priority",
+        "name": "Pain/Priority",
+        "addresses": "Timing",
+        "purpose": "Create urgency by showing the cost of inaction.",
+        "steps": [
+          "Acknowledge their position: \"I understand this might not seem urgent right now.\"",
+          "Ask open-ended questions to uncover pain: \"How is [problem] affecting your team's results?\"",
+          "Quantify the pain: \"What do these challenges cost your org in time, revenue, or headcount?\"",
+          "Show what happens if they wait: \"What might happen if this is not addressed this quarter?\"",
+          "Emphasize acting now: \"By addressing this now, you could [specific benefit].\"",
+          "Confirm urgency: \"Does solving this sooner rather than later match your priorities?\""
+        ]
+      },
+      {
+        "id": "problem_reframes",
+        "name": "Problem Reframes",
+        "addresses": "Product Fit, Competition",
+        "purpose": "Help them see the problem differently so your approach clicks.",
+        "steps": [
+          "Acknowledge their view: \"I hear that you are considering other options.\"",
+          "Introduce a new angle: \"Have you considered that the real challenge might be [deeper issue]?\"",
+          "Back it with data or a story.",
+          "Connect the reframed problem to their goals.",
+          "Show how your approach fits the reframed problem.",
+          "Check alignment: \"Does this perspective match what you are seeing?\""
+        ]
+      },
+      {
+        "id": "gap_in_ability",
+        "name": "Gap in Ability",
+        "addresses": "Competition, Product Fit",
+        "purpose": "Help them realize their internal team cannot close this gap alone.",
+        "steps": [
+          "Ask what they have tried: \"What strategies have you used so far to address this?\"",
+          "Highlight limitations: \"Many teams find that without specialized experience, progress stalls.\"",
+          "Emphasize complexity: \"Given how this fits into your [larger business goal], internal resources may be stretched.\"",
+          "Position yourself as the bridge: \"Our team brings [specific experience] that can accelerate this.\"",
+          "Share a relevant result.",
+          "Ask: \"How would partnering with a team experienced in this area change your timeline?\""
+        ]
+      },
+      {
+        "id": "roi",
+        "name": "Quantifiable Outcomes (ROI)",
+        "addresses": "Price",
+        "purpose": "Make the investment feel small compared to the return.",
+        "steps": [
+          "Acknowledge the concern: \"I understand budget matters.\"",
+          "Calculate the cost of the problem: \"What is [this problem] costing you annually?\"",
+          "Calculate the return: \"By fixing this, you could [save/gain] [amount] over [timeframe].\"",
+          "Compare: \"The investment is [X], but the return is [Y] — a net gain of [Z].\"",
+          "Offer flexible terms if available.",
+          "Confirm: \"Does this projected return match your expectations?\""
+        ]
+      },
+      {
+        "id": "confirmation_close",
+        "name": "Confirmation Close",
+        "addresses": "Any remaining uncertainty",
+        "purpose": "Lock in agreement on key points and move to next steps.",
+        "steps": [
+          "Summarize what you have agreed on.",
+          "Ask: \"Is there anything we have missed?\"",
+          "Address final concerns.",
+          "Outline the next step clearly.",
+          "Ask for commitment: \"Should we move forward with [specific action]?\""
+        ]
+      },
+      {
+        "id": "proven_results",
+        "name": "Proven Results",
+        "addresses": "Trust",
+        "purpose": "Build confidence through evidence, not promises.",
+        "steps": [
+          "Acknowledge hesitation: \"I sense there may be some concerns.\"",
+          "Share a relevant case study with specific numbers.",
+          "Offer a client reference they can call directly.",
+          "Mention any industry recognition or track record markers.",
+          "Ask: \"Does this help address your concerns?\""
+        ]
+      }
+    ]
+  },
+
+  "pushPullPsychology": {
+    "name": "Push-Pull Psychology",
+    "summary": "Buyers are moved by two forces. Push factors create urgency (pain, risk, pressure). Pull factors create desire (vision, opportunity, upside). Use both.",
+    "pushFactors": [
+      "Current pain points and daily friction",
+      "Fear of falling behind competitors",
+      "Risk of missing a market window",
+      "Pressure from leadership or the board"
+    ],
+    "pullFactors": [
+      "Desire for measurable improvement",
+      "Attraction to a clear, specific benefit",
+      "Vision of what success looks like in 90 days",
+      "Competitive advantage over peers"
+    ],
+    "howToApply": [
+      "Identify both push and pull factors during discovery.",
+      "Use push factors to create urgency in Checkpoint 1.",
+      "Use pull factors to maintain momentum through Checkpoints 2 and 3.",
+      "Balance both throughout — too much push feels like pressure, too much pull feels like a daydream."
+    ]
+  },
+
+  "dateVsDoctor": {
+    "name": "Date vs. Doctor Visit",
+    "summary": "Two ways to sell. One works. One does not.",
+    "dateApproach": {
+      "description": "Trying to impress. Talking about yourself. Listing features and capabilities.",
+      "result": "Price-based decisions. Commoditization. You become one of three quotes."
+    },
+    "doctorApproach": {
+      "description": "Diagnosing before prescribing. Asking thorough questions. Understanding root causes before recommending anything.",
+      "result": "Value-based decisions. Trust. The prospect sees you as the expert."
+    },
+    "rule": "Never prescribe before you have fully diagnosed."
+  },
+
+  "strategicSalesPlan": {
+    "name": "The Strategic Sales Plan (SSP)",
+    "summary": "A data-driven planning tool for tracking the full sales funnel. Input your real numbers, set 90-day targets, and track weekly progress.",
+    "funnelStages": [
+      { "stage": "Activities", "description": "Calls, emails, LinkedIn messages — total outreach attempts." },
+      { "stage": "Conversations", "description": "Two-way interactions where you got a real response." },
+      { "stage": "Discovery Meetings Scheduled", "description": "Qualified meetings booked." },
+      { "stage": "Discovery Meetings Attended", "description": "Meetings that actually happened." },
+      { "stage": "Proposal Meetings Attended", "description": "Follow-up meetings where you presented a proposal." },
+      { "stage": "Verbal Commitments", "description": "The prospect said yes." },
+      { "stage": "Closed Sales", "description": "Signed agreement. Money moves." }
+    ],
+    "conversionDrivers": [
+      { "name": "Connect Rate", "formula": "Conversations / Activities" },
+      { "name": "Scheduled Rate", "formula": "Discovery Scheduled / Conversations" },
+      { "name": "Attended Rate (Discovery)", "formula": "Discovery Attended / Discovery Scheduled" },
+      { "name": "Attended Rate (Proposal)", "formula": "Proposal Attended / Discovery Attended" },
+      { "name": "Close Rate", "formula": "Closed Sales / Proposal Attended" },
+      { "name": "Average Revenue per Sale", "formula": "Total Revenue / Closed Sales" }
+    ],
+    "planningProcess": [
+      "Gather last 3 months of actual performance data.",
+      "Input your numbers to see current conversion rates at every stage.",
+      "Set 90-day targets. Small improvements at each stage compound into large results.",
+      "Track weekly. Compare actuals to targets every Friday.",
+      "Adjust. If you are behind, identify the specific stage that is dragging and fix it."
+    ]
+  },
+
+  "verifiedStatistics": {
+    "_note": "These statistics have been fact-checked against credible sources. Only use stats marked 'verified: true' in client-facing materials.",
+    "stats": [
+      {
+        "claim": "40-60% of B2B deals end in 'no decision' — not a loss to a competitor, but a loss to inaction.",
+        "source": "Harvard Business Review, analysis of 2.5M+ sales conversations",
+        "verified": true
+      },
+      {
+        "claim": "Buyers complete roughly 80% of their buying journey independently before engaging a sales rep.",
+        "source": "Brixon Group / Gartner research",
+        "verified": true
+      },
+      {
+        "claim": "50-60% of B2B sales reps miss quota annually.",
+        "source": "CSO Insights / Gartner benchmark reports",
+        "verified": true,
+        "note": "Commonly cited range across multiple years of reporting."
+      },
+      {
+        "claim": "The average cost of a bad sales hire ranges from $50,000 to $250,000+.",
+        "source": "Sales Management Association / DePaul University research",
+        "verified": true,
+        "note": "Range depends on tenure, salary, training costs, and lost opportunity costs."
+      }
+    ],
+    "unverifiedFromLegacy": [
+      {
+        "claim": "92% of potential buyers rate their sales experience highly when their needs are properly addressed.",
+        "status": "UNVERIFIED — No credible source found. Do not use in client materials."
+      },
+      {
+        "claim": "70% of buyers do not want to interact with a sales rep during their buying process.",
+        "status": "PARTIALLY VERIFIED — Gartner/Brixon data shows ~80% of the journey is done independently, but the 70% 'do not want to interact' framing is not directly sourced. Use the 80% stat instead."
+      },
+      {
+        "claim": "88% of prospects only buy when they view the salesperson as a trusted advisor.",
+        "status": "UNVERIFIED — No credible source found. Do not use in client materials. Use the 'trusted advisor' concept without a made-up percentage."
+      }
+    ]
+  }
+}

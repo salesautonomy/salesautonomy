@@ -43,3 +43,6 @@ logs/
 
 # audit / reports (if user doesn't want them tracked)
 audit-reports/
+
+# legacy replit exports (content extracted, no need to track)
+legacy-sales-autonomy/
