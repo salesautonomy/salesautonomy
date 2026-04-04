@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
+}
+
 /* ============================================================================
    Sales Autonomy — Global Design System
    Ported from ForGood Golden UI (design-tokens.css + index.css)
@@ -12,8 +20,6 @@
    - View Transitions API support
    - Reduced motion support
    ============================================================================ */
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 /* ══════════════════════════════════════════════════════════════════════════════
    DESIGN TOKENS — Exact port from ForGood design-tokens.css
@@ -199,6 +205,8 @@
    RESET & BASE — ForGood body rules ported
    ══════════════════════════════════════════════════════════════════════════════ */
 
+@layer base {
+
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -268,6 +276,8 @@ h2 { font-size: var(--text-heading-xl); }
 h3 { font-size: var(--text-heading-lg); }
 h4 { font-size: var(--text-heading-md); }
 h5 { font-size: var(--text-heading-sm); }
+
+} /* end @layer base */
 
 /* ── Transition utilities (ForGood pattern) ──────────────────────────────── */
 .transition-standard {
@@ -941,12 +951,3 @@ pre code { background: none; padding: 0; }
 .stack-md > * + * { margin-top: var(--stack-md); }
 .stack-lg > * + * { margin-top: var(--stack-lg); }
 .stack-xl > * + * { margin-top: var(--stack-xl); }
-
-/* ── Flex utilities ──────────────────────────────────────────────────────── */
-.flex { display: flex; }
-.flex-col { flex-direction: column; }
-.items-center { align-items: center; }
-.justify-center { justify-content: center; }
-.justify-between { justify-content: space-between; }
-.text-center { text-align: center; }
-.w-full { width: 100%; }
